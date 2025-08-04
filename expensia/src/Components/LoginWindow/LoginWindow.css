@@ -1,0 +1,169 @@
+.LoginContainer {
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly dark background for overlay */
+    backdrop-filter: blur(8px); /* Adds blur to the background behind the container */
+}
+
+
+
+
+.LoginPanel {
+    position: relative;
+    margin: 6vw auto;
+    z-index: 10;
+    width: fit-content;
+    border-radius: 12px; /* Rounded corners */
+    display: flex;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Subtle border to enhance glass effect */
+    backdrop-filter: blur(15px); /* Creates glassy effect */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow to lift the panel */
+    padding: 2vw;
+}
+
+.LoginClose{
+    z-index: 1;
+    position: absolute;
+    top: 0.8vw;
+    right: 0.8vw;
+    background-image: url("/public/close.png");
+    padding: 0.4vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.LoginClose:hover{
+    cursor: pointer;
+}
+
+
+
+.LoginRight {
+    position: relative;
+    background: rgba(255, 255, 255, 0.25); /* Transparent background */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw 3vw;
+    width: 25vw;
+    border-radius: 12px;
+    backdrop-filter: blur(10px); /* Applies blur inside the panel for glassy look */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    color: white; /* Change text color for better contrast with glassy background */
+}
+
+
+.LoginHeader {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 2vw;
+    color: #000;
+}
+
+.InputSet {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.InputSet div{
+    font-size: 1.5rem;
+    padding: 0.3vw 0vw;
+    color: black;
+    font-weight: 600;
+}
+
+.InputSet input {
+    font-size: 1.3rem;
+    padding: 0.4vw 0.2vw;
+    border: 2px solid rgba(0, 186, 124, 0.8);
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent input background */
+    border-radius: 6px;
+    margin-bottom: 0.8vw;
+    color: black; /* Ensure text is visible */
+}
+
+
+.LoginFormButton{
+    margin-top: 4.1vw;
+}
+
+.LoginFormButton,
+.LoginSignUpButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 186, 124);
+    color: rgb(7, 7, 7);
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    padding: 0.8vw;
+}
+
+.LoginFormButton:hover,
+.LoginSignUpButton:hover{
+    background-color: rgb(2, 145, 97);
+    cursor: pointer;
+}
+
+.LoginSeparator {
+    width: 100%;
+}
+
+#or {
+    text-align: center;
+    font-size: 1rem;
+    background:
+        linear-gradient(#000 0 0) left,
+        linear-gradient(#000 0 0) right;
+    background-size: 45% 1px;
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+.SignUpNameGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2vw;
+}
+
+.SignUpBack{
+    position: absolute;
+    top: 0.8vw;
+    left: 0.8vw;
+    background-image: url("/public/left_arrow.png");
+    padding: 0.4vw;
+    background-position: center;
+    background-size: cover;
+}
+
+.SignUpBack:hover{
+    cursor: pointer;
+}
+
+#fname,
+#lname{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#signUpBtn{
+    margin-top: 1vw;
+}
+
+.RememberMe{
+    display: flex;
+}
+
+.RememberMe label{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #000;
+}
