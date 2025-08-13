@@ -57,10 +57,10 @@ It streamlines payment processes within groups by providing tools for tracking d
  # 💸 SplitX — Group Expense Tracker
 
 <p align="center">
-  <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" title="React" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" title="Node.js" height="40"/>
-  <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" title="MongoDB" height="40"/>
-  <img src="https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000" alt="JWT" title="JWT" height="40"/>
+  <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React" title="React" height="60"/>
+  <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js" title="Node.js" height="60"/>
+  <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB" title="MongoDB" height="60"/>
+  <img src="https://img.icons8.com/?size=100&id=rHpveptSuwDz&format=png&color=000000" alt="JWT" title="JWT" height="60"/>
 </p>
 
 > **SplitX** is your smart, hassle-free way to split, track, and settle group expenses.  
