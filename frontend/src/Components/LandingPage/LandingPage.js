@@ -28,7 +28,7 @@ function LandingPage(props) {
       </nav>
       <div className='mainBanner' id='mainBanner'>
         <div className='mainBannerLayer'>
-        <div className='appName'>EXPENSIA</div>
+        <div className='appName'>SplitX</div>
         <div className='appSubName'>Group Payments Made Easier!</div>
         </div>
       </div>
@@ -44,17 +44,17 @@ function LandingPage(props) {
         <div className='featureCard1'>
           <div className='featureCardIcon' id='fci1'></div>
           <div className='featureCardTitle'>Expense Tracking</div>
-          <div className='featureCardContent'>Expensia simplifies financial tracking by allowing users to categorize expenses across different activities and groups. This feature provides clear visibility into spending patterns, aiding users in budgeting and financial planning.</div>
+          <div className='featureCardContent'>SplitX simplifies financial tracking by allowing users to categorize expenses across different activities and groups. This feature provides clear visibility into spending patterns, aiding users in budgeting and financial planning.</div>
         </div>
         <div className='featureCard2'>
           <div className='featureCardIcon' id='fci2'></div>
           <div className='featureCardTitle'>Splitting and Sharing</div>
-          <div className='featureCardContent'> Users can effortlessly divide bills and expenses among friends or teammates. Expensia automates the process, ensuring fairness and reducing disputes over who owes what, enhancing group financial transparency and efficiency.</div>
+          <div className='featureCardContent'> Users can effortlessly divide bills and expenses among friends or teammates. SplitX automates the process, ensuring fairness and reducing disputes over who owes what, enhancing group financial transparency and efficiency.</div>
         </div>
         <div className='featureCard1'>
           <div className='featureCardIcon' id='fci3'></div>
           <div className='featureCardTitle'>Group Budgeting</div>
-          <div className='featureCardContent'>Expensia facilitates collaborative budget management by enabling groups to set and monitor financial targets together. It supports shared financial planning for households, clubs, or projects, promoting accountability towards common financial goals.</div>
+          <div className='featureCardContent'>SplitX facilitates collaborative budget management by enabling groups to set and monitor financial targets together. It supports shared financial planning for households, clubs, or projects, promoting accountability towards common financial goals.</div>
         </div>
         <div className='featureCard2'>
           <div className='featureCardIcon' id='fci4'></div>
@@ -63,7 +63,7 @@ function LandingPage(props) {
         </div>
         </div>
         <div className='usecaseTitle'>
-          EXPENSIA Lets You...
+          SplitX Lets You...
         </div>
         <div className='usecaseGrid'>
         <div id='usecase1' className='usecase'>
