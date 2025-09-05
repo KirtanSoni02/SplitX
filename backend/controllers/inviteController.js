@@ -36,7 +36,7 @@ exports.inviteMember = async (req, res) => {
                 const token = jwt.sign({ userId: newUser._id, groupId: groupId, groupName: group.groupName }, process.env.SECRET_KEY)
 
                 // const link = `https://expensia-frontend.vercel.app/invitation?token=${token}&groupName=${group.groupName}`
-                const link = `http://localhost:5000/invitation?token=${token}&groupName=${group.groupName}`
+                const link = `http://localhost:3000/invitation?token=${token}&groupName=${group.groupName}`
 
                 const mailOptions = {
                     from: 'sonikirtan968@gmail.com',
@@ -71,7 +71,9 @@ exports.inviteMember = async (req, res) => {
 }
 
 const transporter = nodemailer.createTransport({
-    service: 'Gmail', // or another email service
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true, // true for port 465
     auth: {
         user: process.env.MAIL,
         pass: process.env.PASSWORD
