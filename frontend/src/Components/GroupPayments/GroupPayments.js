@@ -59,7 +59,7 @@ function GroupPayments(props) {
 
     fetchExpenses();
 
-  }, [props.expenses]);
+  }, [props.groupInfo.expenses]);
 
   return (
     <div className='GroupPaymentsContainer'>
