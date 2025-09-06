@@ -10,7 +10,7 @@ function GroupListItem(props) {
       const fetchGroupData = async () => {
           if (props.id) {
               try {
-                  const response = await fetch(`http://localhost:5000/expensia/groups/data?groupId=${props.id}`);
+                  const response = await fetch(`https://splitx-backend-6iux.onrender.com/expensia/groups/data?groupId=${props.id}`);
                   const data = await response.json();
                   setGroupData(data.groupData);
               } catch (error) {

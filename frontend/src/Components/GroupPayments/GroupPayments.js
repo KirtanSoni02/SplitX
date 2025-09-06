@@ -11,7 +11,7 @@ function GroupPayments(props) {
       if (props.expenses) {
         const expenseIds = props.groupInfo.expenses;
         const expensePromises = expenseIds.map(async (expenseId) => {
-          const response = await fetch(`http://localhost:5000/expensia/expense/get?expenseId=${expenseId}`);
+          const response = await fetch(`https://splitx-backend-6iux.onrender.com/expensia/expense/get?expenseId=${expenseId}`);
           const data = await response.json();
           if (data.exists) {
             return data.expense;

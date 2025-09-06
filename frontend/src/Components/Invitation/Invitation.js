@@ -21,7 +21,7 @@ function Invitation() {
 
     const acceptInvitation = async () => {
 
-        const response = await fetch('http://localhost:5000/expensia/invite/accept', {
+        const response = await fetch('https://splitx-backend-6iux.onrender.com/expensia/invite/accept', {
           method: 'GET',
           headers: {
             'Authorization': `${token}`,

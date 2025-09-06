@@ -8,7 +8,7 @@ function GroupMember(props) {
         if(props.memberId)
         {
             const fetchMemberName = async () => {
-                const response = await fetch(`http://localhost:5000/expensia/users/name?userId=${props.memberId}`);
+                const response = await fetch(`https://splitx-backend-6iux.onrender.com/expensia/users/name?userId=${props.memberId}`);
         
                 const data = await response.json();
                 setMemberName(data.name);
