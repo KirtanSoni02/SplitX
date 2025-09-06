@@ -66,7 +66,7 @@ It streamlines payment processes within groups by providing tools for tracking d
 > **SplitX** is your smart, hassle-free way to split, track, and settle group expenses.  
 > Designed for trips, households, events, and any shared costs — powered by **graph theory algorithms** to minimize transactions.
 
-🌐 **Live Website:** [Visit PortLink](https://portlink-realtime-marine-operations-and.onrender.com)
+🌐 **Live Website:** [Visit SplitX]( https://split-x-roan.vercel.app/)
 
 ---
 
