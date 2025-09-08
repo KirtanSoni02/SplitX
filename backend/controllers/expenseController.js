@@ -4,7 +4,7 @@ const Group = require("../models/group");
 exports.addExpense = async (req,res) => {
     try{
         const newExpense = req.body;
-        const addExpense = await Expense.create({
+        const addedExpense = await Expense.create({
             description: newExpense.description,
             amount: newExpense.amount,
             date: new Date(newExpense.date),
